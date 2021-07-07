@@ -52,11 +52,8 @@
 		E170D2F02695CB820026FD6B /* ToDoSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				E170D2F12695CB820026FD6B /* ToDoSwiftUIApp.swift */,
-				E170D2F32695CB820026FD6B /* ContentView.swift */,
-				E170D2F52695CB840026FD6B /* Assets.xcassets */,
-				E170D2FA2695CB840026FD6B /* Info.plist */,
-				E170D2F72695CB840026FD6B /* Preview Content */,
+				E170D3012695CDC70026FD6B /* Sources */,
+				E170D3002695CDB50026FD6B /* Resources */,
 			);
 			path = ToDoSwiftUI;
 			sourceTree = "<group>";
@@ -67,6 +64,49 @@
 				E170D2F82695CB840026FD6B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E170D3002695CDB50026FD6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E170D2F72695CB840026FD6B /* Preview Content */,
+				E170D2F52695CB840026FD6B /* Assets.xcassets */,
+				E170D3032695CDE60026FD6B /* Configs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E170D3012695CDC70026FD6B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E170D3042695E3DA0026FD6B /* Scenes */,
+				E170D3022695CDDA0026FD6B /* App */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E170D3022695CDDA0026FD6B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E170D2F12695CB820026FD6B /* ToDoSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E170D3032695CDE60026FD6B /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				E170D2FA2695CB840026FD6B /* Info.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		E170D3042695E3DA0026FD6B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E170D2F32695CB820026FD6B /* ContentView.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +311,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 5K285D3RL3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ToDoSwiftUI/Info.plist;
+				INFOPLIST_FILE = ToDoSwiftUI/Resources/Configs/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +333,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 5K285D3RL3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ToDoSwiftUI/Info.plist;
+				INFOPLIST_FILE = ToDoSwiftUI/Resources/Configs/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
